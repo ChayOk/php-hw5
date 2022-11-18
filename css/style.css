@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+    background-color: rgb(216, 216, 216);
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header{
+    padding: 20px 120px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 50px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+.nav ul a:hover{
+    color: rgb(0, 5, 158);
+}
+
+/* /HEADER/ */
+/* ////////////////////////////////// */
+/* MAIN PAGE */
+
+.banner{
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100% !important; */
+    height: 100vh;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 80px;
+ }
+ .title{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    line-height: 100vh;
+    /* letter-spacing: 10px; */
+}
+.main{
+    padding: 0px 120px;
+}
+.content-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.content-block img{
+    width: 40%;
+    margin-right: 70px;
+}
+.text-content{
+    font-size: 18px;
+    text-align: justify;
+}
+iframe{
+    margin: 20px 0 0;
+}
+
+/* /MAIN PAGE/ */
+/* ////////////////////////////////// */
+/* PAGES */
+
+.pagesBanner{
+    background-image: url('../img/banner2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.pagesTitle{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+.pageBlock{
+    justify-content: space-between;
+}
+.pageBlock .blog, .pageBlock .portfolio{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 400px;
+}
+.pageBlock .blog img, .pageBlock .portfolio img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+}
+.pageBlock .blog .pageBlockTitle, .pageBlock .portfolio .pageBlockTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pageBlock .blog .pageText, .pageBlock .portfolio .pageText{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.pageBlock form{
+    padding: 30px 40px;
+    background: #fff;
+    border: 1px solid #1a1a1a;
+}
+.pageBlock form h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.pageBlock form input, .pageBlock form textarea{
+    font-size: 14px;
+    padding: 10px 10px 5px;
+    width: 300px;
+    font-family: 'Montserrat';
+}
+.pageBlock form input{
+    margin-bottom: 12px;
+}
+.pageBlock form textarea{
+    margin-bottom: 20px;
+}
+.pageBlock form button{
+    width: 322px;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(0, 5, 158);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.pageBlock form button:hover{
+    background: rgb(0, 3, 99);
+}
+.titleSuccess{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/* /PAGES/ */
+/* ////////////////////////////////// */
+/* FOOTER */
+
+footer{
+    padding: 70px 120px 40px 120px;
+    margin-top: 90px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer h4{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.contact div, .posts div, .tweets div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact img, .posts img, .tweets img{
+    width: 30px;
+    margin-right: 20px;
+}
+.tweets p{
+    width: 200px;
+}
+.copyright{
+    padding-top: 60px;
+}
+.copyright p{
+    text-align: center;
+}
+
+/* /FOOTER/ */
